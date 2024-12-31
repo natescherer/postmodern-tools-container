@@ -1,0 +1,8 @@
+copier-templates-extensions==0.3.0
+githubkit==0.12.3
+invoke==2.2.0
+jinja2-shell-extension==2.1.0
+jinja2-time==0.2.0
+requests==2.32.3
+rich==13.9.3
+unicode-slugify==0.1.5
