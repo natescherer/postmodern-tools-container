@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.0...v0.1.1) (2024-12-31)
+
+
+### Features
+
+* Copier update to parent template v0.1.3 ([0fe32fb](https://github.com/natescherer/postmodern-tools-container/commit/0fe32fbe31009cc5ad0cab427b93b00ce5f486cd))
+
 ## [0.1.0](https://github.com/natescherer/postmodern-tools-container/compare/v0.0.1...v0.1.0) (2024-12-31)
 
 
