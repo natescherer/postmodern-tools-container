@@ -3,7 +3,7 @@ name: "Release: Build/Push Docker Image on New Tag"
 on:
   push:
     tags:
-      - v*
+      - "v*"
 
 env:
   REGISTRY: ghcr.io
