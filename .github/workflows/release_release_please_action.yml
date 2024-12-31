@@ -1,4 +1,4 @@
-name: Create/Update Release Please PR
+name: "Release: Release Please Action"
 
 on:
   push:
@@ -15,5 +15,6 @@ jobs:
     steps:
       - uses: googleapis/release-please-action@v4
         with:
+          token: ${{ secrets.REPO_MAINTENANCE_PAT }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
