@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.5](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.4...v0.1.5) (2025-01-02)
+
+
+### Features
+
+* Add python requirements ([f081371](https://github.com/natescherer/postmodern-tools-container/commit/f081371e07852e8b6fa9490e03c91c15f50adf23))
+* Copier update to parent template v0.1.7 ([935e740](https://github.com/natescherer/postmodern-tools-container/commit/935e74029f699cb1a9c83aaa1103a7ff3e9e41f7))
+* Copier update to parent template v0.1.8 ([cd01d35](https://github.com/natescherer/postmodern-tools-container/commit/cd01d35adfed4ac1a5c1b8869a9cb1c1352c44e6))
+
+
+### Miscellaneous
+
+* **deps:** Update dependency rich to v13.9.4 ([152d97f](https://github.com/natescherer/postmodern-tools-container/commit/152d97fa3674cfea984feed790f77ff8b84aa5d6))
+
 ## [0.1.4](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.3...v0.1.4) (2024-12-31)
 
 
