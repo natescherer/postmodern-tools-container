@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.5...v0.1.6) (2025-01-07)
+
+
+### Features
+
+* Add git-credential-manager to dockerfile ([9efb91d](https://github.com/natescherer/postmodern-tools-container/commit/9efb91d06b807ef89faf0d74e3a211e693700779))
+
 ## [0.1.5](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.4...v0.1.5) (2025-01-02)
 
 
