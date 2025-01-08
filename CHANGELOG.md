@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.9](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.8...v0.1.9) (2025-01-08)
+
+
+### Bug Fixes
+
+* Install invoke via pipx so it is in PATH ([28a031f](https://github.com/natescherer/postmodern-tools-container/commit/28a031f1e3ccbe5d00b7287569ac4ca3ee14be93))
+
 ## [0.1.8](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.7...v0.1.8) (2025-01-08)
 
 
