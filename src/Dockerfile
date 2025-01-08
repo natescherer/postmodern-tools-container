@@ -11,7 +11,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 ENV RENOVATE_COPIER_VERSION=9.4.0
 # renovate: datasource=repology depName=ubuntu_24_04/curl versioning=loose
 ENV RENOVATE_CURL_VERSION=8.5.0-2ubuntu10.6
-# renovate: datasource=repology depName=ubuntu_24_04/dotnet versioning=loose
+# renovate: datasource=repology depName=ubuntu_24_04/dotnet8 versioning=loose
 ENV RENOVATE_DOTNET_VERSION=8.0.104-0ubuntu1
 # renovate: datasource=repology depName=ubuntu_24_04/git versioning=loose
 ENV RENOVATE_GIT_VERSION=1:2.43.0-1ubuntu7.1
