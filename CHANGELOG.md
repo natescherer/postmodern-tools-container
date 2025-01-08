@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.8](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.7...v0.1.8) (2025-01-08)
+
+
+### Bug Fixes
+
+* Change python3 to python3.12 ([1e3f0b5](https://github.com/natescherer/postmodern-tools-container/commit/1e3f0b559a075ed9571124ac180515cdf84730a2))
+* Fix dotnet version ([cc687e8](https://github.com/natescherer/postmodern-tools-container/commit/cc687e85f6562316900e15b6faa0c50954cbc005))
+* Use python3 in pipx commands ([bab17fe](https://github.com/natescherer/postmodern-tools-container/commit/bab17fe58a752d677c98c6ddf0f7d9d3e9a16450))
+
 ## [0.1.7](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.6...v0.1.7) (2025-01-08)
 
 
