@@ -15,7 +15,7 @@ ENV RENOVATE_CURL_VERSION=8.5.0-2ubuntu10.6
 ENV RENOVATE_DOTNET_VERSION=8.0.104-0ubuntu1
 # renovate: datasource=repology depName=ubuntu_24_04/git versioning=loose
 ENV RENOVATE_GIT_VERSION=1:2.43.0-1ubuntu7.1
-# renovate datasource=nuget depName=git-credential-manager
+# renovate: datasource=nuget depName=git-credential-manager
 ENV RENOVATE_GCM_VERSION=2.5.1
 # renovate: datasource=github-releases depName=pypa/pipx
 ENV RENOVATE_PIPX_VERSION=1.7.0
