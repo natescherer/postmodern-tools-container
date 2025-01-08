@@ -41,6 +41,6 @@ RUN dotnet tool install --tool-path /usr/local/bin git-credential-manager --vers
 WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN curl -fsSL -O --output-dir /usr/local/bin https://github.com/pypa/pipx/releases/download/${RENOVATE_PIPX_VERSION}/pipx.pyz \
-    && echo 'alias pipx="python3 /usr/local/bin/pipx.pyz"' >> ~/.bash_aliases \
-    && python3 /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" copier==${RENOVATE_COPIER_VERSION} \
-    && sed -e 's/#.*//' requirements.txt | xargs python3 /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" copier
+    && echo 'alias pipx="python3.12 /usr/local/bin/pipx.pyz"' >> ~/.bash_aliases \
+    && python3.12 /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" copier==${RENOVATE_COPIER_VERSION} \
+    && sed -e 's/#.*//' requirements.txt | xargs python3.12 /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" copier
