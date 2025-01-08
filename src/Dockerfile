@@ -42,5 +42,5 @@ WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN curl -fsSL -O --output-dir /usr/local/bin https://github.com/pypa/pipx/releases/download/${RENOVATE_PIPX_VERSION}/pipx.pyz \
     && echo 'alias pipx="python3 /usr/local/bin/pipx.pyz"' >> ~/.bash_aliases \
-    && python /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" copier==${RENOVATE_COPIER_VERSION} \
-    && sed -e 's/#.*//' requirements.txt | xargs python /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" copier
+    && python3 /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" copier==${RENOVATE_COPIER_VERSION} \
+    && sed -e 's/#.*//' requirements.txt | xargs python3 /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" copier
