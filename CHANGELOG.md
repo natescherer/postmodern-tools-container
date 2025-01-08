@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.7](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.6...v0.1.7) (2025-01-08)
+
+
+### Features
+
+* Fix renovate comments ([0b42010](https://github.com/natescherer/postmodern-tools-container/commit/0b42010f574406b17253033d1e3c65098b51ccde))
+* Have git credential manager and copier install globally ([6a8c8aa](https://github.com/natescherer/postmodern-tools-container/commit/6a8c8aaa007e7d51223f7f6e4a82065f0607c024))
+
+
+### Bug Fixes
+
+* Fix dotnet8 renovate definition ([75deab4](https://github.com/natescherer/postmodern-tools-container/commit/75deab48d140603a4cd50938074e8dcdbcff8a24))
+* Fix gcm renovate defn ([dde64c6](https://github.com/natescherer/postmodern-tools-container/commit/dde64c638e842895e19ba15cf4f4ca44b585881e))
+
+
+### Miscellaneous
+
+* **deps:** Update dependency copier to v9.4.1 ([5390dbf](https://github.com/natescherer/postmodern-tools-container/commit/5390dbf6d20a2142c2f672516fa966fd50fec0e6))
+* **deps:** Update dependency git-credential-manager to 2.6.0 ([09d07ec](https://github.com/natescherer/postmodern-tools-container/commit/09d07ecc027ed3205b71b415e842f841867d31a9))
+* **deps:** Update dependency pypa/pipx to v1.7.1 ([8298e6b](https://github.com/natescherer/postmodern-tools-container/commit/8298e6bd72a42f08e4ce2ad6fb299f43ba9dae43))
+* **deps:** Update dependency ubuntu_24_04/dotnet8 to v8.0.111-8.0.11-0ubuntu1~24.04.1 ([1fcd0d5](https://github.com/natescherer/postmodern-tools-container/commit/1fcd0d5188a26af85bee58a9a1f1ddfcdcc54228))
+* **deps:** Update dependency ubuntu_24_04/python3.12 to v3.12.3-1ubuntu0.3 ([bcd013e](https://github.com/natescherer/postmodern-tools-container/commit/bcd013e069e61ea8f3036bf050037b6a89ae0781))
+
 ## [0.1.6](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.5...v0.1.6) (2025-01-07)
 
 
