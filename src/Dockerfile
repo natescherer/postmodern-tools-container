@@ -20,6 +20,8 @@ ENV RENOVATE_DOTNET_VERSION=8.0.111-0ubuntu1~24.04.1
 ENV RENOVATE_GIT_VERSION=1:2.43.0-1ubuntu7.1
 # renovate: datasource=nuget depName=git-credential-manager
 ENV RENOVATE_GCM_VERSION=2.6.0
+# renovate: datasource=pypi depName=invoke
+ENV RENOVATE_INVOKE_VERSION=2.2.0
 # renovate: datasource=github-releases depName=pypa/pipx
 ENV RENOVATE_PIPX_VERSION=1.7.1
 # renovate: datasource=repology depName=ubuntu_24_04/python3.12 versioning=loose
@@ -43,4 +45,5 @@ COPY requirements.txt ./
 RUN curl -fsSL -O --output-dir /usr/local/bin https://github.com/pypa/pipx/releases/download/${RENOVATE_PIPX_VERSION}/pipx.pyz \
     && echo 'alias pipx="python3.12 /usr/local/bin/pipx.pyz"' >> ~/.bash_aliases \
     && python3.12 /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" copier==${RENOVATE_COPIER_VERSION} \
-    && sed -e 's/#.*//' requirements.txt | xargs python3.12 /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" copier
+    && sed -e 's/#.*//' requirements.txt | xargs python3.12 /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" copier \
+    && python3.12 /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" invoke==${RENOVATE_INVOKE_VERSION}
