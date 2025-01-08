@@ -18,7 +18,7 @@ ENV RENOVATE_GIT_VERSION=1:2.43.0-1ubuntu7.1
 # renovate datasource=nuget packageName=git-credential-manager
 ENV RENOVATE_GCM_VERSION=2.5.1
 # renovate: datasource=github-releases depName=pipx packageName=pypa/pipx
-ENV RENOVATE_PIPX_VERSION=1.7.0
+ENV RENOVATE_PIPX_VERSION=1.7.1
 # renovate: datasource=repology depName=ubuntu_24_04/python-is-python3 versioning=loose
 ENV RENOVATE_PYTHON_IS_PYTHON3_VERSION=3.11.4-1
 # renovate: datasource=repology depName=ubuntu_24_04/python3-all versioning=loose
