@@ -38,6 +38,7 @@ words:
   - infisical
   - pydoclint
   - pyupgrade
+  - pypa
   - pscore
   - taplo
 patterns:
