@@ -1,4 +1,4 @@
-name: "Release: Build/Push Docker Image on New Tag"
+name: "Release: Build/Push on Release Tag"
 
 on:
   push:

@@ -1,8 +1,9 @@
-name: "CI: Build/Push Docker Image on Push to main"
+name: "CI: Build/Push Current State of main"
 
 on:
   push:
     branches: main
+    paths: src/**
 
 env:
   REGISTRY: ghcr.io
