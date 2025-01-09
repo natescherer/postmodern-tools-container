@@ -2,21 +2,27 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "dependencyDashboard": false,
   "extends": ["config:recommended"],
-  // Per-provider config below
   "copier": {
     // Copier template updates are handled via dedicated GitHub Actions Workflow/Azure DevOps pipeline
     "enabled": false
   },
-  // Package rules below
+  "docker": {
+    "pinDigests": true
+  },
   "packageRules": [
+    {
+      "description": "Don't pin digests in devcontainer.json because it's not supported in features",
+      "matchManagers": ["devcontainer"],
+      "pinDigests": false
+    }
   ],
   // Custom managers below
   "customManagers": [
     {
       "customType": "regex",
       "fileMatch": [
-        "(^|/|\\.)([Dd]ocker|[Cc]ontainer)file$",
-        "(^|/)([Dd]ocker|[Cc]ontainer)file[^/]*$"
+        "(^|/|\\.)([Dd]ocker|[Cc]ontainer)file$", // cspell:disable-line
+        "(^|/)([Dd]ocker|[Cc]ontainer)file[^/]*$" // cspell:disable-line
       ],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>[a-z-.]+?) depName=(?<depName>[^\\s]+?)(?: (lookupName|packageName)=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[^\\s]+?))?(?: extractVersion=(?<extractVersion>[^\\s]+?))?(?: registryUrl=(?<registryUrl>[^\\s]+?))?\\s(?:ENV|ARG)\\s+[A-Za-z0-9_]+?_VERSION[ =][\"']?(?<currentValue>.+?)[\"']?\\s"
