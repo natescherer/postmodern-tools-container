@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.10](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.9...v0.1.10) (2025-01-09)
+
+
+### Bug Fixes
+
+* Don't initialize git-credential-manager ([2859705](https://github.com/natescherer/postmodern-tools-container/commit/28597055bc8735d158dcc111e63a2775b223b632))
+* Remove unneeded invoke dependency from requirements.txt ([b7fd9fe](https://github.com/natescherer/postmodern-tools-container/commit/b7fd9feda7afa8b3dae51c23ffb176d66ffe64b1))
+
 ## [0.1.9](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.8...v0.1.9) (2025-01-08)
 
 
