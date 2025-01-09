@@ -32,18 +32,18 @@ RUN apt-get update \
     curl="${RENOVATE_CURL_VERSION}" \
     dotnet-sdk-8.0="${RENOVATE_DOTNET_VERSION}" \
     git="${RENOVATE_GIT_VERSION}" \
+    python-is-python3=3.11.4-1 \
     python3.12="${RENOVATE_PYTHON312_VERSION}" \
     python3.12-venv="${RENOVATE_PYTHON312_VERSION}" \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN dotnet tool install --tool-path /usr/local/bin git-credential-manager --version ${RENOVATE_GCM_VERSION} \
-    && git-credential-manager configure
+RUN dotnet tool install --tool-path /usr/local/bin git-credential-manager --version ${RENOVATE_GCM_VERSION}
 
 WORKDIR /usr/src/app
 COPY requirements.txt ./
 RUN curl -fsSL -O --output-dir /usr/local/bin https://github.com/pypa/pipx/releases/download/${RENOVATE_PIPX_VERSION}/pipx.pyz \
-    && echo 'alias pipx="python3.12 /usr/local/bin/pipx.pyz"' >> ~/.bash_aliases \
-    && python3.12 /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" copier==${RENOVATE_COPIER_VERSION} \
-    && sed -e 's/#.*//' requirements.txt | xargs python3.12 /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" copier \
-    && python3.12 /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" invoke==${RENOVATE_INVOKE_VERSION}
+    && echo 'alias pipx="python /usr/local/bin/pipx.pyz"' >> ~/.bash_aliases \
+    && python /usr/local/bin/pipx.pyz install --global --pip-args="--no-cache-dir" copier==${RENOVATE_COPIER_VERSION} \
+    && sed -e 's/#.*//' requirements.txt | xargs python /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" copier \
+    && python /usr/local/bin/pipx.pyz inject --global --pip-args="--no-cache-dir" --include-apps copier invoke==${RENOVATE_INVOKE_VERSION}
