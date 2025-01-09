@@ -1,9 +1,5 @@
-<<<<<<< before updating
-FROM ubuntu:24.04
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-=======
 FROM ubuntu:24.04@sha256:80dd3c3b9c6cecb9f1667e9290b3bc61b78c2678c02cbdae5f0fea92cc6734ab
->>>>>>> after updating
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # NOTE 1: As of 2025/01/07, the only way to install Git Credential Manager on arm64 Linux is as a .NET Tool.
 # Once arm64 deb packages are released, this install method should be changed.
