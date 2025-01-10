@@ -35,11 +35,13 @@ words:
   # GitHub Username
   - natescherer
   # Code Terms
+  - gosu
   - infisical
   - pydoclint
   - pyupgrade
   - pypa
   - pscore
+  - shfmt
   - taplo
 patterns:
   - name: devcontainer-features
