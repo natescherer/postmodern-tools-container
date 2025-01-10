@@ -9,7 +9,9 @@ usermod -o -u "${NEW_UID}" "${ENTRYPOINT_USERNAME}" 1>/dev/null  # Modify the us
 groupmod -o -g "${NEW_GID}" "${ENTRYPOINT_USERNAME}" 1>/dev/null # Modify the group id.
 
 printf "User '%s' is running with the following IDs:\n" "${ENTRYPOINT_USERNAME}"
-printf "\tUID: %s\n" $(id -u "${ENTRYPOINT_USERNAME}")
-printf "\tGID: %s\n" $(id -u "${ENTRYPOINT_USERNAME}")
+CURRENT_UID="$(id -u "${ENTRYPOINT_USERNAME}")"
+printf "\tUID: %s\n" "${CURRENT_UID}"
+CURRENT_GID="$(id -g "${ENTRYPOINT_USERNAME}")"
+printf "\tGID: %s\n" "${CURRENT_GID}"
 
 gosu "${ENTRYPOINT_USERNAME}" "$@" # Run the command the entrypoint was called with as the custom user.
