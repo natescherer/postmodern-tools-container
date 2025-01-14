@@ -21,7 +21,7 @@ ENV RENOVATE_DOTNET_VERSION=8.0.111-0ubuntu1~24.04.1
 # renovate: datasource=repology depName=ubuntu_24_04/git versioning=loose
 ENV RENOVATE_GIT_VERSION=1:2.43.0-1ubuntu7.1
 # renovate: datasource=nuget depName=git-credential-manager
-ENV RENOVATE_GCM_VERSION=2.6.0
+ENV RENOVATE_GCM_VERSION=2.6.1
 # renovate: datasource=github-releases depName=tianon/gosu
 ENV RENOVATE_GOSU_VERSION=1.17
 # renovate: datasource=pypi depName=invoke
