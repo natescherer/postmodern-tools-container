@@ -29,7 +29,7 @@ ENV RENOVATE_INVOKE_VERSION=2.2.0
 # renovate: datasource=github-releases depName=pypa/pipx
 ENV RENOVATE_PIPX_VERSION=1.7.1
 # renovate: datasource=repology depName=ubuntu_24_04/python3.12 versioning=loose
-ENV RENOVATE_PYTHON312_VERSION=3.12.3-1ubuntu0.3
+ENV RENOVATE_PYTHON312_VERSION=3.12.3-1ubuntu0.5
 
 RUN apt-get update \
     && apt-get install --no-install-recommends -y \
