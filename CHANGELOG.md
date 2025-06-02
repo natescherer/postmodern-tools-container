@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.1.12](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.11...v0.1.12) (2025-06-02)
+
+
+### Miscellaneous
+
+* **deps:** Update dependency copier to v9.7.1 ([eabaf49](https://github.com/natescherer/postmodern-tools-container/commit/eabaf49f48b5710a7009c355640a131727535707))
+* **deps:** Update dependency copier to v9.7.1 ([ed21747](https://github.com/natescherer/postmodern-tools-container/commit/ed21747852b1f0f2d0e3bbeb1f5231e6463cd44c))
+* **deps:** Update dependency copier-templates-extensions to v0.3.1 ([50509c4](https://github.com/natescherer/postmodern-tools-container/commit/50509c44991166d0b96b8c5c712aedfa1ddbe1b0))
+* **deps:** Update dependency copier-templates-extensions to v0.3.1 ([e6d54dc](https://github.com/natescherer/postmodern-tools-container/commit/e6d54dcfc84a6a82de55b3580f8972b732cfa64d))
+* **deps:** Update dependency git-credential-manager to 2.6.1 ([c897709](https://github.com/natescherer/postmodern-tools-container/commit/c8977095ada7c671de4dd99cb6347baf308729ef))
+* **deps:** Update dependency git-credential-manager to 2.6.1 ([e08fdb6](https://github.com/natescherer/postmodern-tools-container/commit/e08fdb6c7d3832521af60cf84b3c2bb9396cedfa))
+* **deps:** Update dependency githubkit to v0.12.13 ([be3b997](https://github.com/natescherer/postmodern-tools-container/commit/be3b9973d44e8c8e696bfb3b8c9fb77c3c7d0a38))
+* **deps:** Update dependency githubkit to v0.12.13 ([58e8b4d](https://github.com/natescherer/postmodern-tools-container/commit/58e8b4d7d99d7b1a3917f842ce5be9daa6b54332))
+* **deps:** Update dependency jinja2-shell-extension to v2.1.1 ([020e6eb](https://github.com/natescherer/postmodern-tools-container/commit/020e6ebf819473351ff605d5890382df25f6d6bf))
+* **deps:** Update dependency jinja2-shell-extension to v2.1.1 ([d3c7a5c](https://github.com/natescherer/postmodern-tools-container/commit/d3c7a5c46a83ec907e16920f15814467565d0fa8))
+* **deps:** Update dependency rich to v14 ([6715263](https://github.com/natescherer/postmodern-tools-container/commit/6715263524450686d0d42d35066c04561f4d7c01))
+* **deps:** Update dependency rich to v14 ([cb747ff](https://github.com/natescherer/postmodern-tools-container/commit/cb747ffe48edb0e64abc211f6bfa8c9367c68156))
+* **deps:** Update dependency ubuntu_24_04/git to v1:2.43.0-1ubuntu7.2 ([3160718](https://github.com/natescherer/postmodern-tools-container/commit/3160718a08be75f07940d0b927fff2c519bcfb72))
+* **deps:** Update dependency ubuntu_24_04/git to v1:2.43.0-1ubuntu7.2 ([49be238](https://github.com/natescherer/postmodern-tools-container/commit/49be23846c1b6f5fbe24e1b369b4552be56126c5))
+* **deps:** Update dependency ubuntu_24_04/python3.12 to v3.12.3-1ubuntu0.5 ([ce320dc](https://github.com/natescherer/postmodern-tools-container/commit/ce320dc2bccc51187feee7a0d428d75284c5c9e2))
+* **deps:** Update dependency ubuntu_24_04/python3.12 to v3.12.3-1ubuntu0.5 ([895add2](https://github.com/natescherer/postmodern-tools-container/commit/895add273939e9e8edcaad9e26349113f34c2c09))
+* **deps:** Update ubuntu:24.04 docker digest to 6015f66 ([10f0c43](https://github.com/natescherer/postmodern-tools-container/commit/10f0c432692155bf6fc05bb8c555a7eb1468b669))
+* **deps:** Update ubuntu:24.04 docker digest to 6015f66 ([0598eee](https://github.com/natescherer/postmodern-tools-container/commit/0598eee13f1a0244a82091ccd3b5313413366d80))
+
 ## [0.1.11](https://github.com/natescherer/postmodern-tools-container/compare/v0.1.10...v0.1.11) (2025-01-10)
 
 
