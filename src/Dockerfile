@@ -10,7 +10,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 # renovate: datasource=repology depName=ubuntu_24_04/ca-certificates versioning=loose
 ENV RENOVATE_CA_CERTIFICATES_VERSION=20240203
 # renovate: datasource=pypi depName=copier
-ENV RENOVATE_COPIER_VERSION=9.4.1
+ENV RENOVATE_COPIER_VERSION=9.7.1
 # renovate: datasource=repology depName=ubuntu_24_04/curl versioning=loose
 ENV RENOVATE_CURL_VERSION=8.5.0-2ubuntu10.6
 # renovate-disabled: datasource=repology depName=ubuntu_24_04/dotnet8 versioning=loose
